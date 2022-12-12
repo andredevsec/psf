@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portal PSF ADM</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+
+<header>
+	
+</header>
+<h1>Solicitações dos pacientes: Formulario PSF</h1>
+<form method="POST" action="consulta.php" >
+	<label for="">Registros de solicitações por assunto</label><br><br>
+    <select class="seletor" name="assunto" required>
+
+		<option value="" selected>ASSUNTO</option>
+        <option value="VACINACAO">Vacinação</option>
+        <option value="ATENDIMENTO MEDICO">Atendimento médico</option>
+        <option value="AGENDAMENTO MEDICO">Agendamento médico</option>
+        <option value="DICAS DE SAUDE">Dicas de saúde</option>
+        <option value="AGENDA DA ENFERMAGEM">Agenda Enfermagem</option>
+        <option value="AGENDA TEC. ENFERMAGEM">Agenda Tec. Enfermagem</option>
+                                    
+	  </select>
+	
+	<button type="submit" >Buscar</button>
+		
+</form><br><br>
+
+</body>
+</html>
